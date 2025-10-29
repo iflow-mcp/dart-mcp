@@ -1,5 +1,5 @@
 [project]
-name = "dart-mcp"
+name = "iflow-mcp_dart-mcp"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
@@ -9,3 +9,6 @@ dependencies = [
     "mcp[cli]>=1.6.0",
     "python-dotenv>=1.0.0",
 ]
+
+[project.scripts]
+dart-mcp = "dart:mcp"
