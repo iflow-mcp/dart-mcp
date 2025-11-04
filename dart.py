@@ -1518,5 +1518,9 @@ async def search_json_financial_data(
 
 
 # 서버 실행 코드
-if __name__ == "__main__":
+def main():
+    """MCP 서버 진입점"""
     mcp.run(transport='stdio')
+
+if __name__ == "__main__":
+    main()
